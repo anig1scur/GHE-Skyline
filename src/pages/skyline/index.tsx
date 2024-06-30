@@ -36,7 +36,7 @@ const Skyline = () => {
         ref={skylineRef}
         svgUrl={svg}
       />
-      <div className='toolbar'>
+      {/* <div className='toolbar'>
         <div className='toolbar-item'>
           <label htmlFor='svg'>import from online SVG</label>
           <input
@@ -52,7 +52,7 @@ const Skyline = () => {
         <div className='toolbar-item'>
           <Download onClick={() => skylineRef.current?.download()} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
