@@ -19,6 +19,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, 'env');
 
   return {
+    base: process.env.GITHUB_ACTIONS === '1' ? '/skyline/' : '/',
     server: { hmr: true },
     plugins: [
       react({

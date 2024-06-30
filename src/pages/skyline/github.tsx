@@ -164,7 +164,7 @@ const SkylineModel = forwardRef<SkylineHandler, SkylineProps>((props, ref) => {
 
     const extrudeSettings = {
       steps: 1,
-      depth: 10,
+      depth: 20,
       bevelEnabled: false,
       bevelThickness: 1,
       bevelSize: 1,
